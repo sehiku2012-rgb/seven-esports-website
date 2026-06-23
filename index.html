@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEVEN e-Sports & Internet Kafe</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0d1117;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
+    url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-family:'Orbitron',sans-serif;
+    font-size:4rem;
+    color:#00ffae;
+    text-shadow:0 0 20px #00ffae;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:1.2rem;
+    max-width:700px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#00ffae;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 25px #00ffae;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:50px;
+    color:#00ffae;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border:1px solid #00ffae;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#00ffae;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.info-box{
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+}
+
+.review{
+    background:#161b22;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#06090d;
+    color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+<h1>SEVEN e-Sports</h1>
+<p>
+Antalya's premier gaming destination featuring powerful gaming PCs,
+high-speed internet, esports competitions, and a welcoming atmosphere
+for gamers of all levels.
+</p>
+<a href="#contact" class="btn">Visit Us Today</a>
+</div>
+</header>
+
+<section>
+<h2 class="section-title">Why Gamers Choose Us</h2>
+
+<div class="features">
+
+<div class="card">
+<h3>🎮 Gaming PCs</h3>
+<p>High-performance systems built for esports and modern games.</p>
+</div>
+
+<div class="card">
+<h3>⚡ Fast Internet</h3>
+<p>Stable low-latency connections for competitive online gaming.</p>
+</div>
+
+<div class="card">
+<h3>🪑 Comfortable Setup</h3>
+<p>Gaming chairs and quality equipment for long sessions.</p>
+</div>
+
+<div class="card">
+<h3>🍔 Snacks & Drinks</h3>
+<p>Food and beverages available while you play.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">About SEVEN</h2>
+
+<div class="about">
+<p>
+SEVEN e-Sports & Internet Kafe has become one of Kepez's favorite gaming
+locations. Known for its clean environment, powerful computers,
+friendly staff, and excellent gaming experience, it welcomes both local
+players and international visitors looking for a premium gaming venue.
+</p>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Location & Contact</h2>
+
+<div class="info">
+
+<div class="info-box">
+<h3>📍 Address</h3>
+<p>
+Kültür Mahallesi<br>
+Ulusoy Cd. No:57/A<br>
+07060 Kepez / Antalya
+</p>
+</div>
+
+<div class="info-box">
+<h3>📞 Phone</h3>
+<p>+90 549 458 49 49</p>
+<br>
+<h3>🕒 Opening Hours</h3>
+<p>Daily: 06:00 AM - 02:00 AM</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Customer Reviews</h2>
+
+<div class="review">
+★★★★★ "Very welcoming to foreigners, amazing prices and a fantastic gaming experience."
+</div>
+
+<div class="review">
+★★★★★ "Great computers, everything is clean, and the staff are very friendly."
+</div>
+
+<div class="review">
+★★★★★ "One of the best internet cafes and esports venues in Antalya."
+</div>
+
+</section>
+
+<section id="contact">
+<h2 class="section-title">Ready to Play?</h2>
+
+<div class="about">
+<p>
+Join hundreds of gamers who choose SEVEN e-Sports & Internet Kafe for
+competitive gaming, fast internet, and a comfortable environment.
+</p>
+
+<a href="tel:+905494584949" class="btn">
+Call Now
+</a>
+</div>
+</section>
+
+<footer>
+<p>© 2026 SEVEN e-Sports & Internet Kafe | Kepez, Antalya</p>
+</footer>
+
+</body>
+</html>
